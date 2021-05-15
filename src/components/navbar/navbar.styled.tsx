@@ -4,7 +4,7 @@ export const NavbarStyled = Styled.nav({
   display: 'block',
   overflow: 'hidden',
   '& > ul > li': {
-    float: 'left',
+    float: 'right',
     margin: '1rem'
   },
   '& > ul': {

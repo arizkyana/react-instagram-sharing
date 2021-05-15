@@ -9,7 +9,7 @@ function Navbar() {
       {(value: IContextValues) => (
         <NavbarStyled>
           <ul>
-            <li>
+            {/* <li>
               <Link to="/dashboard">Dashboard</Link>
             </li>
             <li>
@@ -17,7 +17,7 @@ function Navbar() {
             </li>
             <li>
               <Link to="/tickets/abc-def">Detail Tickets</Link>
-            </li>
+            </li> */}
             <li>
               <div>
                 Cart {value.carts.length}
